@@ -1,0 +1,8 @@
+<div class="app">
+  <textarea [(ngModel)]="markdown" [ngModelOptions]="{standalone: true}"></textarea>
+  <div 
+    class="preview"
+    [innerHTML]="marked"
+  >
+  </div>
+</div>
